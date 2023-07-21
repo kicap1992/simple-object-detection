@@ -32,7 +32,7 @@ import serial
 # # set the servo to 90 degrees
 # SetAngle(90)
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0) #
 # set the width and height to 320x240
 cap.set(3, 320)
 cap.set(4, 240)
